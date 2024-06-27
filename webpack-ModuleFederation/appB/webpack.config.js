@@ -50,7 +50,7 @@ module.exports = {
     new ModuleFederationPlugin({
       name: 'appB',
       remotes: {
-        appA: 'appA@http://127.0.0.1:8080/remoteEntry.js'
+        appA: 'appA@http://127.0.0.1:10001/remoteEntry.js'
       }
   })
   ]
